@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #f7f7f7;
+}
+
+h1 {
+    color: #444;
+}
+
+form {
+    margin: 1rem 0;
+}
+
+label {
+    display: inline-block;
+    width: 70px;
+}
+
+input {
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+button {
+    display: block;
+    margin-top: 0.5rem;
+}
+
+footer {
+    margin-top: 2rem;
+    color: #888;
+    font-size: 0.9rem;
+}

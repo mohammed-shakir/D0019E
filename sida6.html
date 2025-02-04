@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sida 6 - Skicka data</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- menu -->
+    <nav>
+      <ul>
+        <li><a href="menu.php">Hem</a></li>
+        <li><a href="sida1.php">Sida 1</a></li>
+        <li><a href="sida2.php">Sida 2</a></li>
+        <li><a href="sida3.php">Sida 3</a></li>
+        <li><a href="sida4.php">Sida 4</a></li>
+        <li><a href="sida5.php">Sida 5</a></li>
+        <li><a href="sida6.html">Sida 6</a></li>
+      </ul>
+    </nav>
+
+    <h1>Sida 6 - Skicka data</h1>
+    <p>Här finns två olika formulär; det ena använder GET, det andra POST.</p>
+
+    <!-- Formulär 1: GET -->
+    <form action="sida6.php" method="get">
+      <label for="namnGet">Namn (GET):</label>
+      <input type="text" id="namnGet" name="namnGet" />
+
+      <label for="telGet">Telefon (GET):</label>
+      <input type="text" id="telGet" name="telGet" />
+
+      <button type="submit">Skicka (GET)</button>
+    </form>
+
+    <!-- Formulär 2: POST -->
+    <form action="sida6.php" method="post">
+      <label for="namnPost">Namn (POST):</label>
+      <input type="text" id="namnPost" name="namnPost" />
+
+      <label for="telPost">Telefon (POST):</label>
+      <input type="text" id="telPost" name="telPost" />
+
+      <button type="submit">Skicka (POST)</button>
+    </form>
+
+    <!-- footer -->
+    <footer style="text-align: center; margin-top: 2rem">
+      Luleå tekniska universitet | Webbutveckling II - Skriptspråk och databaser
+      | mohsha-0 | 2025
+    </footer>
+  </body>
+</html>
